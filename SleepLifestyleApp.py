@@ -301,10 +301,6 @@ with st.container():
     st.plotly_chart(bar1, use_container_width=True)
     
 
-# data preview
-with st.expander("Show filtered data"):
-    st.dataframe(dfl.reset_index(drop=True))
-
 
 # ROW 3 #
 r3c1, r3c2 = st.columns((5, 7))
